@@ -51,13 +51,13 @@ font-size: 16px;
 line-height: 20px;
 color: #C4C4C4;
 text-decoration: none;
-float: right;
+float: left;
 height: 25px;
 margin-top: 25px;
 }
 .right > a:nth-child(3){
-    padding-left: 10px;
-    padding-right: 0px;
+    padding-left: 0px;
+    padding-right: 10px;
 }
 
 .footer {
