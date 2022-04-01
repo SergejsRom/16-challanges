@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./global.css">
+    <link rel="stylesheet" href="./styles/layout.css">
+    <title>BIT layout</title>
+</head>
+<body>
+    
+    <main class="main">
+    <nav class="nav-left">
+        <div class="logo">
+            <img src="./assets/bit-logo.png" alt="Logo">
+        </div>
+        <div class="container">
+            <div class="elements">
+                <img class="img1" src="./assets/home.png" alt="Home">
+                <a class="a1" href="#">Home</a>
+            </div>
+            <div class="elements">
+                <img class="img2" src="./assets/calendar.png" alt="Calendar">
+                <a class="a2" href="#">Calendar</a>
+            </div>
+            <div class="elements">
+                <img class="img3" src="./assets/fe.png" alt="FE">
+                <a class="a3" href="#">FE</a>
+            </div>
+            <div class="elements">
+                <img class="img4" src="./assets/games.png" alt="Games">
+                <a class="a4" href="#">Games</a>
+        </div>
+        </div>
+    </nav>
+    <footer class="footer">
+        <span>© Baltic Institute of Technology</span>
+    </footer>
+    </main>
+</body>
+</html>
