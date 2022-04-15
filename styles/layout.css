@@ -771,10 +771,11 @@
     opacity: 1;
   }
   
-  footer {
+  .footer {
  
     text-align: center;
     color: var(--secondary-color);
+    width: 300px;
     font-size: 11px;
     border-top: 1px solid var(--secondary-color);
     padding: 11px 0;
