@@ -21,17 +21,17 @@ height: 30vh;
 @media (min-width: 575px) {
     .image-home{
         height: 40vh;
-    }
+    }}
 
     @media (min-width: 767px) {
         .image-home{
             height: 45vh;
-        }
+        }}
         @media (min-width: 991px) {
             .image-home{
                 height: 50vh;
-            }
-        }
+            }}
+
 .first-solve {
 font-family: 'Montserrat';
 font-style: normal;
@@ -39,6 +39,6 @@ font-weight: 500;
 font-size: 16px;
 line-height: 20px;
 color: #000000;
-text-align: right;
+text-align: center;
 margin-top: 10px;
 }
