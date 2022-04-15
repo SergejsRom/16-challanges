@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 2</title>
+    <link rel="stylesheet" href="./global.css">
+    <link rel="stylesheet" href="./styles/layout2.css">
+</head>
+<body>
+    <nav class="nav" >
+        <div class="logo" >
+            <img src="./assets/bit-logo.png" alt="LOGO">
+        </div>
+        <div class="left" >
+            <img src="./assets/home.png" alt="Home">
+            <img src="./assets/calendar.png" alt="Calendar">
+            <img src="./assets/fe.png" alt="FE">
+            <img src="./assets/games.png" alt="Games">
+        </div>
+        <div class="right">
+            <a href="#">Home</a>
+            <a href="#">Calendar</a>
+            <a href="#">FE</a>
+            <a href="#">Games</a>
+        </div>
+    </nav>
+    <footer class="footer">
+        <span>© Baltic Institute of Technology</span>
+    </footer>
+</body>
+</html>

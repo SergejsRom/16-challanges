@@ -1,0 +1,90 @@
+.main { 
+    display: inline-block;
+    width: 100%;
+}
+.nav-left{
+    display: inline-block;
+    width: 100px;
+    height: 100vh;
+    position: sticky;
+    left: 0px;
+    background-color: #F7F6FF;
+    }
+.nav-left:hover{
+    width: 150px;}
+
+.nav-left > .logo {
+    position: relative;
+    width: 68px;
+    height: 34px; 
+    top: 52px;
+    left: 15px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid #C4C4C4;
+}
+.nav-left:hover{
+    width: 150px;
+}
+.container {
+    position: absolute;
+    top: 110px;
+}
+
+.elements {
+padding: 0;
+display: inline-block;
+}
+.elements:hover{
+display: inline-block;
+cursor: pointer;
+
+}
+
+.elements > img {
+height: 25px;
+margin: 15px;
+}
+
+
+.a1 {
+    padding: 10px;
+    display: none;
+    }
+.img1:hover + .a1{
+    display: inline-block;
+}
+.a2 {
+    padding: 10px;
+    display: none;
+    }
+.img2:hover + .a2{
+    display: inline-block;
+}
+.a3 {
+    padding: 10px;
+    display: none;
+    }
+.img3:hover + .a3{
+    display: inline-block;
+}
+.a4 {
+    padding: 10px;
+    display: none;
+    }
+.img4:hover + .a4{
+    display: inline-block;
+}
+.footer {
+    position: absolute;
+    bottom: 20px;
+    left: 500px;
+    font-family:  'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    color: #02577A;
+    padding: 20px 100px 20px 100px;
+    border-top: #02577A solid 1px;
+
+}
